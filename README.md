@@ -1,7 +1,7 @@
 BLE-Positioning
 ===============
 
-Author: Robin Henniges
+Author: Robin H.
 
 A Bluetooth Low Energy Positioning System as part of my masterthesis.
 
