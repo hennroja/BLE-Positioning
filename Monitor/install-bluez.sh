@@ -24,6 +24,10 @@ make
 make install
 cd ../bluez-5.17
 echo "install dbus-1.8.0"
-./configure --disable-systemd --enable-library
+./configure --disable-systemd --enable-library --prefix=/usr --mandir=/usr/share/man --sysconfdir=/etc --localstatedir=/var --enable-experimental
 make
 make install
+cd ..
+wget https://raw.github.com/pypa/pip/master/contrib/get-pip.py
+python get-pip.py
+pip install pybluez
