@@ -8,6 +8,7 @@ apt-get update
 apt-get upgrade
 apt-get install libusb-dev libdbus-1-dev libglib2.0-dev libudev-dev libical-dev libread$
 echo "Creating bluez_temp folder"
+cd ~/
 mkdir bluez_temp
 cd bluez_temp
 echo "Download: bluez-5.17"
