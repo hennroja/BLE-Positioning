@@ -6,7 +6,7 @@ if [ "$(id -u)" != "0" ]; then
 fi
 apt-get update
 apt-get upgrade
-apt-get install libusb-dev libdbus-1-dev libglib2.0-dev libudev-dev libical-dev libread$
+apt-get install libusb-dev libdbus-1-dev libglib2.0-dev libudev-dev python-dev libical-dev libread$
 echo "Creating bluez_temp folder"
 cd ~/
 mkdir bluez_temp
